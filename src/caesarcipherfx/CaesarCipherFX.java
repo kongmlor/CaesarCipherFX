@@ -125,7 +125,7 @@ public class CaesarCipherFX extends Application {
                 String translatedText = translate(input, key);
                 outputField.setText(translatedText);
             }
-        }
+        }//test
     }
 
     // Create a ComboBox for selecting the key
