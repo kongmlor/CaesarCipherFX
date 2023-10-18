@@ -106,6 +106,7 @@ public class CaesarCipherFX extends Application {
         Scene scene = new Scene(vboxOL, 500, 350);
         primaryStage.setTitle("Caesar Cipher FX by Kong Lor");
         primaryStage.setScene(scene);
+    
         primaryStage.show();
     }
 
@@ -126,6 +127,7 @@ public class CaesarCipherFX extends Application {
                 outputField.setText(translatedText);
             }
         }//test
+        //test for github
     }
 
     // Create a ComboBox for selecting the key
